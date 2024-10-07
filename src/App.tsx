@@ -1,10 +1,7 @@
+import Main from "./containers/Main";
+
 const App = () => {
-  return (
-    <div>
-      <h1>My App</h1>
-      <p>Welcome to my app</p>
-    </div>
-  );
+  return <Main />;
 };
 
 export default App;
