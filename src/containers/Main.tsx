@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { navigationLinks } from "@/common/navigationLinks";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Navigation } from "@/types/shared";
 import Socials from "@/components/Socials";
 

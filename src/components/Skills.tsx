@@ -1,4 +1,3 @@
-import React from "react";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
