@@ -3,14 +3,14 @@ import { FaDev } from "react-icons/fa";
 
 const Socials = () => {
   return (
-    <div className="flex justify-center gap-20 text-white mt-20">
+    <div className="flex flex-col justify-center gap-4 text-white mb-3">
       <a
         href="https://github.com/Shaiq1217"
         target="_blank"
         rel="noopener noreferrer"
         title="GitHub"
       >
-        <Github className="hover:text-gray-400 transition-colors duration-300" />
+        <Github className="hover:text-gray-400 transition-all duration-300 hover:scale-150" />
       </a>
       <a
         href="https://linkedin.com/in/shaiqi"
@@ -18,10 +18,10 @@ const Socials = () => {
         rel="noopener noreferrer"
         title="LinkedIn"
       >
-        <Linkedin className="hover:text-gray-400 transition-colors duration-300" />
+        <Linkedin className="hover:text-gray-400 transition-all duration-300 hover:scale-150" />
       </a>
       <a href="mailto:shaiqi2001@gmail.com" title="Email">
-        <Mail className="hover:text-gray-400 transition-colors duration-300" />
+        <Mail className="hover:text-gray-400 transition-all duration-300 hover:scale-150" />
       </a>
       <a
         href="https://app.daily.dev/shaiqmustafa"
@@ -30,7 +30,7 @@ const Socials = () => {
         title="App.Daily"
       >
         <FaDev
-          className="hover:text-gray-400 transition-colors duration-300"
+          className="hover:text-gray-400 transition-all duration-300 hover:scale-150"
           size={22}
         />
       </a>
