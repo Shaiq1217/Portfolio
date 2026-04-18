@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import { useRef, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Socials from "@/components/Socials";
 import AboutMe from "./containers/AboutMe";
 import Experience from "./containers/Experience";
@@ -7,17 +7,17 @@ import Resume from "./containers/Resume";
 import Projects from "./containers/Projects";
 
 const App = () => {
-  const targetRef = useRef<HTMLDivElement>(null);
+  // const targetRef = useRef<HTMLDivElement>(null);
   const [contentVisible, setContentVisible] = useState(false);
 
   useEffect(() => {
     setContentVisible(true);
   }, []);
 
-  // Function to scroll to the target component
-  const scrollToComponent = () => {
-    targetRef?.current?.scrollIntoView({ behavior: "smooth" });
-  };
+  // // Function to scroll to the target component
+  // const scrollToComponent = () => {
+  //   targetRef?.current?.scrollIntoView({ behavior: "smooth" });
+  // };
 
   return (
     <>

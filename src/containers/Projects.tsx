@@ -1,5 +1,4 @@
 import SectionHeader from "@/components/SectionHeader";
-import { Card } from "@/components/ui/card";
 
 const Projects = () => {
   return (
