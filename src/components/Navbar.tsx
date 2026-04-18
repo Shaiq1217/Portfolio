@@ -1,5 +1,4 @@
 import { navigationLinks } from "@/common/navigationLinks";
-import { Navigation } from "@/types/shared";
 import { Bot, SunMoon } from "lucide-react";
 import { useEffect, useState } from "react";
 

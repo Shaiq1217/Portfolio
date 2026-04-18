@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 export interface SpecialTextProps {
   children: React.ReactNode;
 }

@@ -7,17 +7,17 @@ import Resume from "./containers/Resume";
 import Projects from "./containers/Projects";
 
 const App = () => {
-  const targetRef = useRef<HTMLDivElement>(null);
+  // const targetRef = useRef<HTMLDivElement>(null);
   const [contentVisible, setContentVisible] = useState(false);
 
   useEffect(() => {
     setContentVisible(true);
   }, []);
 
-  // Function to scroll to the target component
-  const scrollToComponent = () => {
-    targetRef?.current?.scrollIntoView({ behavior: "smooth" });
-  };
+  // // Function to scroll to the target component
+  // const scrollToComponent = () => {
+  //   targetRef?.current?.scrollIntoView({ behavior: "smooth" });
+  // };
 
   return (
     <>
