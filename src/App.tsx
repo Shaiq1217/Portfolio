@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import { useRef, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Socials from "@/components/Socials";
 import AboutMe from "./containers/AboutMe";
 import Experience from "./containers/Experience";
